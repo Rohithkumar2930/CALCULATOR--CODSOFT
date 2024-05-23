@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    /* background-color: rgb(4, 2, 23); */
+}
+
+.outer {
+    background-image: url(photos/mathematics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-style: cover;
+    -moz-background-style: cover;
+    -o-background-size: cover;
+    /* background-attachment: fixed; */
+    /* display: flex; */
+}
+
+.container {
+    padding-bottom: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+
+    background-image: url(photos/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEzLTA4Ni5qcGc.webp);
+    /* background-image: url(photos/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg); */
+    background-color: rgb(211, 209, 212);
+    padding: 15px;
+    /* width: 340px; */
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #efe9e9,
+        5px 5px 12px rgba(245, 241, 241, 0.16);
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+}
+
+input {
+    grid-column: span 4;
+    height: 70px;
+    width: 275px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff inset 5px 5px 5px rgba(0, 0, 0, .16);
+    border-radius: 30px;
+    color: rgba(70, 70, 70);
+    font-size: 30px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+button {
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff inset 5px 5px 5px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    transition: 1s;
+}
+
+button:hover {
+    transform: scale(1.25);
+    z-index: 3;
+    background: rgb(81, 161, 231);
+    color: white;
+}
